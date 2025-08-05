@@ -1,0 +1,25 @@
+# Basic Calculator Program with fixed numbers 33 and 26
+
+num1 = 33
+num2 = 26
+
+print("Numbers: ", 33, "and", 26)
+
+# Addition
+result_add = num1 + num2
+print(f"{num1} + {num2} = {result_add}")
+
+# Subtraction
+result_sub = num1 - num2
+print(f"{num1} - {num2} = {result_sub}")
+
+# Multiplication
+result_mul = num1 * num2
+print(f"{num1} * {num2} = {result_mul}")
+
+# Division
+if num2 != 0:
+    result_div = num1 / num2
+    print(f"{num1} / {num2} = {result_div}")
+else:
+    print("Division by zero is not allowed!")
